@@ -13,6 +13,23 @@ div.questions  {
     background-color:grey ;
 }
 
-button.first{
-   border-color: red;
+button.first {
+   border-color: black;
+}
+
+button.second {
+    border-color: black;
+}
+
+button.third {
+    border-color: black;
+}
+
+button.fourth {
+    border-color: black;
+}
+
+button.submit {
+    border-color: black;
+    color: green;
 }
