@@ -8,52 +8,40 @@ body{
     flex-direction: column;
 }
 
+
+
 div.questions  {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
     background-color:lightgrey;
-    height: 50vh;
+    height: 60vh;
     max-width: 70%;
     max-height: 70%;
     margin-top: 20vh;
     padding-top: 50px;
-    column-count: 2;
+    column-count: 4;
+    padding-left: 32vh;
+    margin-top: 10px;
+}
+
+.first, .second, .third, .fourth{
+    border-color: black;
+    height: 50px;
+    width: 90px;
+    align-content: center;
+    background-color: rgba(14, 254, 254, 0.4);
 }
 
 
-
-button.first {
-    border-color: black;
-    height: 30px;
-    width: 70px;
- }
- 
- button.second {
-     border-color: black;
-     height: 30px;
-     width: 70px;
- }
- 
- button.third {
-     border-color: black;
-     height: 30px;
-     width: 70px;
- }
- 
- button.fourth {
-     border-color: black;
-     height: 30px;
-     width: 70px;
- }
 
 
 
 button.submit {
     border-color: black;
-    background-color: green;
-    height: 30px;
-    width: 70px;
+    background-color: lightgreen;
+    height: 50px;
+    width: 90px;
     position:absolute;
-    margin-top: 200px;
+    margin-top: 280px;
 }
