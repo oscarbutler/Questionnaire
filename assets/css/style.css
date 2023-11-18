@@ -11,15 +11,15 @@ body{
 h1{
     text-align: center;
     font-size: large;
+    text-decoration: underline;
 }
 
 header {
     background-color: aqua;
     width: 100%;
-    align-items: baseline;
     position: fixed;
     top: 0;
-    
+
 }
 
 div.questions  {
@@ -28,12 +28,10 @@ div.questions  {
     box-sizing: border-box;
     background-color:lightgrey;
     height: 60vh;
-    max-width: 70%;
-    max-height: 70%;
-    margin-top: 20vh;
+    max-width: 100%;
     padding-top: 50px;
-    column-gap: normal;
-    margin-top: 10px;
+    margin-top: 70px;
+    max-height: 100vh;
 }
 
 .first, .second, .third, .fourth{
@@ -41,6 +39,6 @@ div.questions  {
     height: 50px;
     width: 90px;
     align-content: center;
-    background-color: rgba(14, 254, 254, 0.4);
+    background-color: aqua;
 }
 
