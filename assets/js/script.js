@@ -5,3 +5,11 @@ const resultsContainer = document.getElementById('results');
 
 const submitContainer = document.getElementById('submit');
 
+function buildQuestions(){}
+
+function showResults(){}
+
+buildQuestions();
+
+firstButton.addEventListener('click' )
+
