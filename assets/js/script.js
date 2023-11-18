@@ -11,5 +11,14 @@ function showResults(){}
 
 buildQuestions();
 
-firstButton.addEventListener('click' )
+let button = document.getElementsByTagName("button");
+
+button.addEventListener('click', function () {
+    if (this.getAttribute ("data-type") === "submit"){
+        checkAnswer();
+    } else {
+        let gameType = this.getAttribute("data-type");
+        runGame(gameType);
+    }
+})
 
