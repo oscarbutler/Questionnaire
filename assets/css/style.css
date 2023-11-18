@@ -34,11 +34,11 @@ div.questions  {
     max-height: 100vh;
 }
 
-.first, .second, .third, .fourth{
+
+button {
     border-color: black;
     height: 50px;
     width: 90px;
     align-content: center;
     background-color: aqua;
 }
-
