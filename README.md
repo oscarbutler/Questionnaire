@@ -18,6 +18,12 @@
 
 ## Technology Used
 
+- HTML
+- CSS
+- Javascript
+- VS Code
+- Git Hub
+
 ## Wireframes
 
 ## Deployment
