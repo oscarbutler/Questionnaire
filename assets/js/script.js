@@ -11,10 +11,10 @@ function showResults(){}
 
 buildQuestions();
 
-let button = document.getElementsByTagName("button");
+let questions = document.getElementsByTagName("first-answer");
 
-button.addEventListener('click', function () {
-    if (this.getAttribute ("data-type") === "submit"){
+first-checkAnswer.addEventListener('click', function () {
+    if (this.getAttribute ("data-type") === "Vatican City"){
         checkAnswer();
     } else {
         let gameType = this.getAttribute("data-type");
