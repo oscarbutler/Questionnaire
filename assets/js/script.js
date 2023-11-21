@@ -25,3 +25,18 @@ first-checkAnswer.addEventListener('click', function () {
 function checkAnswer(){
 
 }
+
+const data = [
+    {
+      'question': 'What is the worlds smallest country?',
+      'answers': ['Monaco', 'Vatican City', 'Georgia', 'San Marino'],
+      'correct': 'Vatican City'
+    },
+    {
+      'question': '2 question',
+      'answers': ['q', 'eq', 'ew', 'ee'],
+      'correct': 'q'
+    },
+  ]
+  
+  data[0]
