@@ -47,3 +47,14 @@ button {
     align-content: center;
     background-color: aqua;
 }
+
+.start {
+    margin-top: 60px;
+
+}
+
+.intro {
+    color: black;
+    margin-top: 180px;
+    background-color: rgba(255, 213, 79, 0.92);
+}
