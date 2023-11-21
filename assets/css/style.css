@@ -20,7 +20,7 @@ h2 {
 }
 
 header {
-    background-color: aqua;
+    background-color: rgb(185, 251, 144);
     width: 100%;
     position: fixed;
     top: 0;
@@ -45,7 +45,7 @@ button {
     height: 50px;
     width: 90px;
     align-content: center;
-    background-color: aqua;
+    background-color: rgb(185, 251, 144);
 }
 
 .start {
@@ -56,5 +56,5 @@ button {
 .intro {
     color: black;
     margin-top: 180px;
-    background-color: rgba(255, 213, 79, 0.92);
+    background-color: rgb(185, 251, 144);
 }
