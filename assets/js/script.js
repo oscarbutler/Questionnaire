@@ -33,9 +33,19 @@ const data = [
       'correct': 'Vatican City'
     },
     {
-      'question': '2 question',
-      'answers': ['q', 'eq', 'ew', 'ee'],
-      'correct': 'q'
+      'question': 'Who won the 2022 World Cup?',
+      'answers': ['France', 'Germany', 'Argentina', 'England'],
+      'correct': 'Argentina'
+    },
+    {
+      '': 'When did World War 2 end?',
+      'answers': ['1945', '1943', '1951', '1947'],
+      'correct': '1945'
+    },
+    {
+      'question': 'What continent has the highest population',
+      'answers': ['North America', 'Africa', 'Europe', 'Asia'],
+      'correct': 'Asia'
     },
   ]
   
