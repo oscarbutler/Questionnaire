@@ -1,10 +1,10 @@
-const questionsContainer = document.getElementById('questions');
+const questionsContainer = document.getElementsByClassName('questions');
 
-const resultsContainer = document.getElementById('results');
+const resultsContainer = document.getElementsByClassName('results');
 
-const submitContainer = document.getElementById('submit');
+const submitContainer = document.getElementsByClassName('submit');
 
-
+let firstCheckAnswer = document.getElementsByClassName('checkAnswer')
 
 const data = [
   {
@@ -71,5 +71,13 @@ buildQuestions();
 
 function checkAnswer(){
 
+    first-checkAnswer.addEventListener('click', function () {
+        if (this.getAttribute ("data-type") === "Vatican City"){
+            checkAnswer();
+        } else {
+            let gameType = this.getAttribute("data-type");
+            runGame(gameType);  
+        }
+    })
 }
 
