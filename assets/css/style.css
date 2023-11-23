@@ -55,6 +55,13 @@ button {
 
 .intro {
     color: black;
-    margin-top: 180px;
+}
+
+.introduction{
     background-color: rgb(185, 251, 144);
+    margin-top: 140px;
+    width: 500px;
+    padding: 30px;
+    border-radius: 50px;
+
 }
