@@ -36,7 +36,7 @@ div.questions  {
     display: flex;
     justify-content: space-evenly;
     padding-top: 70px; 
-    margin-top: 70px;
+    margin-top: 40px;
     max-height: 100vh;
     border-radius: 50px;
 }
