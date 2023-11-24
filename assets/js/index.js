@@ -93,7 +93,10 @@ function checkAnswer(){
     })
   }
   
-    
+  function incrementWrongAnswer() {
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
+  }
 
 function runGame(gameType){
 let question = Math.floor(Math.random() * data.length)
