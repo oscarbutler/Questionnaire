@@ -4,7 +4,9 @@ const resultsContainer = document.getElementsByClassName('results');
 
 const submitContainer = document.getElementsByClassName('submit');
 
-let firstCheckAnswer = document.getElementsByClassName('checkAnswer')
+const answerContainer =document.getElementsByClassName('answer');
+
+let firstCheckAnswer = document.getElementsByClassName('checkAnswer');
 
 const data = [
   {
@@ -61,23 +63,31 @@ const data = [
 
 data[0]
 
-function buildQuestions(){}
+function buildQuestions(){
+ 
+}
 
-function showResults(){}
-
-buildQuestions();
+function showResults(){
 
 
+  let numCorrect = 0;
+}
 
 function checkAnswer(){
 
     first-checkAnswer.addEventListener('click', function () {
-        if (this.getAttribute ("data-type") === "Vatican City"){
+        if (this.getAttribute ("data-type") === "correct"){
             checkAnswer();
         } else {
             let gameType = this.getAttribute("data-type");
             runGame(gameType);  
         }
     })
-}
+  }
+  
+    
 
+function runGame(gameType){
+let question = Math.floor(Math.random() * data.length)
+const questionData = data[question];
+}
