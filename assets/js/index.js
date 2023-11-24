@@ -73,6 +73,14 @@ function showResults(){
   let numCorrect = 0;
 }
 
+let isCorrect = userAnswer === correct[0];
+    if (isCorrect) {
+      incrementScore();
+    } else {
+      incrementWrongAnswer();
+    }
+
+
 function checkAnswer(){
 
     first-checkAnswer.addEventListener('click', function () {
