@@ -50,6 +50,12 @@ div.questions  {
     border-radius: 50px;
 }
 
+.scores{
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: -85px;
+    
+}
 
 button {
     border-color: black;
