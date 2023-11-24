@@ -93,6 +93,11 @@ function checkAnswer(){
     })
   }
   
+  function incrementCorrectAnswer() {
+    let oldScore = parseInt(document.getElementById("correct").innerText);
+    document.getElementById("correct").innerText = ++oldscore
+  }
+
   function incrementWrongAnswer() {
     let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
