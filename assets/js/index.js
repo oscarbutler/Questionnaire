@@ -95,7 +95,7 @@ function checkAnswer(){
   
   function incrementCorrectAnswer() {
     let oldScore = parseInt(document.getElementById("correct").innerText);
-    document.getElementById("correct").innerText = ++oldscore
+    document.getElementById("correct").innerText = ++oldScore
   }
 
   function incrementWrongAnswer() {
