@@ -90,3 +90,9 @@ footer {
     background-color: rgba(185, 251, 144, 1);
     height: 5px;
 }
+
+.go {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
