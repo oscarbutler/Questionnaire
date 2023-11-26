@@ -1,9 +1,19 @@
+const questionsElement = document.getElementById('question');
 
-const questionsContainer = document.getElementById('questions');
+const results = document.getElementById('score');
 
-const resultsContainer = document.getElementById('results');
+const submit = document.getElementById('answer');
 
-const submitContainer = document.getElementById('submit');
+const nextButton = document.getElementById('next')
+
+const currentQuestion = 0;
+
+let score = 0;
+
+function showQuestion(){
+  const currentQuestion = data[currentQuestion]
+}
+
 
 const data = [
   {
@@ -59,25 +69,4 @@ const data = [
 ]
 
 data[0]
-
-function buildQuestions(){}
-
-function showResults(){}
-
-buildQuestions();
-
-let firstCheckAnswer = document.getElementsById("first-checkAnswer");
-
-first-checkAnswer.addEventListener('click', function () {
-    if (this.getAttribute ("data-type") === "Vatican City"){
-        checkAnswer();
-    } else {
-        let gameType = this.getAttribute("data-type");
-        runGame(gameType);  
-    }
-})
-
-function checkAnswer(){
-
-}
 
