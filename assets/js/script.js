@@ -2,17 +2,9 @@ const questionsElement = document.getElementById('question');
 
 const results = document.getElementById('score');
 
-const submit = document.getElementById('answer');
-
-const nextButton = document.getElementById('next')
-
-const currentQuestion = 0;
+const currentQuestionIndex = 0;
 
 let score = 0;
-
-function showQuestion(){
-  const currentQuestion = data[currentQuestion]
-}
 
 
 const data = [
@@ -70,3 +62,6 @@ const data = [
 
 data[0]
 
+const nextButton = document.createElement('next');
+nextButton.textContent = 'Next Question';
+document.body.appendChild(nextButton);
