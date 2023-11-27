@@ -90,5 +90,6 @@ function checkAnswer(){
 }
 
 function showAnswer(){
-  
+  questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} out of ${incorrectCount}.`
+
 }
