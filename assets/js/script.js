@@ -6,6 +6,10 @@ const currentQuestionIndex = 0;
 
 let score = 0;
 
+let correctCount = 0;
+
+let incorrectCount = 0;
+
 
 const data = [
   {
@@ -67,10 +71,12 @@ nextButton.textContent = 'Next Question';
 document.body.appendChild(nextButton);
 
 function showQuestion(){
-  const currentQuestion = data[currentQuestionIndex]
+  const currentQuestion = data[currentQuestionIndex];
+  questionsElement.textContent = currentQuestion.question 
 
   currentQuestion.answers.forEach((answer, index) => {
     const submit = document.getElementById(`answer${index}`);
     answer.addEventListener('click', () => checkAnswer(index))
   })
+  
 }
