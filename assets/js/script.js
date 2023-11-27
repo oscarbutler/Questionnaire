@@ -66,7 +66,7 @@ const data = [
 
 data[0]
 
-const nextButton = document.createElement('next');
+const nextButton = document.createElement('button');
 nextButton.textContent = 'Next Question';
 document.body.appendChild(nextButton);
 
