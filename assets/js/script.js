@@ -88,3 +88,7 @@ function checkAnswer(){
    else {incorrect +1};
    
 }
+
+function showAnswer(){
+  
+}
