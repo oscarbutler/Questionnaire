@@ -65,3 +65,12 @@ data[0]
 const nextButton = document.createElement('next');
 nextButton.textContent = 'Next Question';
 document.body.appendChild(nextButton);
+
+function showQuestion(){
+  const currentQuestion = data[currentQuestionIndex]
+
+  currentQuestion.answers.forEach((answer, index) => {
+    const submit = document.getElementById(`answer${index}`);
+    answer.addEventListener('click', () => checkAnswer(index))
+  })
+}
