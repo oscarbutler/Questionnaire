@@ -80,3 +80,11 @@ function showQuestion(){
   })
   
 }
+
+
+function checkAnswer(){
+  const currentQuestion = data[currentQuestionIndex]
+   if (currentQuestion.answer === currentQuestion.correct){correct +1}
+   else {incorrect +1};
+   
+}
