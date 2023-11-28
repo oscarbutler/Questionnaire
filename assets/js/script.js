@@ -81,6 +81,12 @@ function showQuestion(){
   
 }
 
+function incrementScore() {
+  let score = parseInt(document.getElementById("correct").innerText);
+  document.getElementById("correct").innerText = ++oldscore;
+}
+
+
 
 function checkAnswer(){
 
