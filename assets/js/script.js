@@ -86,7 +86,10 @@ function incrementScore() {
   document.getElementById("correct").innerText = ++oldscore;
 }
 
-
+function incrementWrongScore() {
+  let score = parseInt(document.getElementById("incorrect").innerText);
+  document.getElementById("incorrect").innerText = ++oldscore;
+}
 
 function checkAnswer(){
 
