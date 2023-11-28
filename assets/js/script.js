@@ -64,28 +64,26 @@ const data = [
   }
 ]
 
-data[0]
-
 const nextButton = document.createElement('button');
 nextButton.textContent = 'Next Question';
 document.body.appendChild(nextButton);
 
 function showQuestion(){
   const currentQuestion = data[currentQuestionIndex];
-  questionsElement.textContent = currentQuestion.question 
+  questionsElement.textContent = currentQuestion.question; 
 
-  currentQuestion.answers.forEach((answer, index) => {
-    const submit = document.getElementById(`answer${index}`);
-    answer.addEventListener('click', () => checkAnswer(index))
+  currentQuestion.answers.forEach((answer, index) => {  
+    const submit = document.createElement('div');
+    submit.textContent = answer;
+    answer.addEventListener('click', () => checkAnswer(index));
+    questionsElement.appendChild(submit)
   })
   
 }
 
 
 function checkAnswer(){
-  const currentQuestion = data[currentQuestionIndex]
-   if (currentQuestion.answer === currentQuestion.correct){correct +1}
-   else {incorrect +1};
+
    
 }
 
