@@ -97,7 +97,12 @@ function incrementWrongScore() {
 }
 
 function checkAnswer(){
-
+let isCorrect = currentQuestion === answer;
+   if (isCorrect){
+    incrementScore();
+    } else {
+      incrementWrongScore()
+    }
    
 }
 
