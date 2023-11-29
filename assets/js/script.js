@@ -1,4 +1,5 @@
-const questionsElement = document.getElementById('question');
+const questionsElement = document.createElement('qe');
+document.body.appendChild(questionsElement)
 
 const results = document.getElementById('score');
 
@@ -33,14 +34,14 @@ const data = [
     'correct': 'Asia'
   },
   {
-    'question': '',
-    'answers': ['France', 'Germany', 'Argentina', 'England'],
-    'correct': 'Argentina'
+    'question': 'How many states are in America?',
+    'answers': ['48', '51', '50', '49'],
+    'correct': '50'
   },
   {
-    'question': 'Who won the 2022 World Cup?',
-    'answers': ['France', 'Germany', 'Argentina', 'England'],
-    'correct': 'Argentina'
+    'question': 'What is the largest building in the World?',
+    'answers': ['Empire States Building', 'Burj Khalifa', 'Eiffel Tower', 'Big Ben'],
+    'correct': 'Burj Khalifa'
   },
   {
     'question': 'What is the largest mammal in the world?',
@@ -72,14 +73,11 @@ function showQuestion(){
   const currentQuestion = data[currentQuestionIndex];
   questionsElement.textContent = currentQuestion.question; 
 
-  currentQuestion.answers.forEach((answer, index) => {  
-    const submit = document.createElement('div');
-    submit.textContent = answer;
-    answer.addEventListener('click', () => checkAnswer(index));
-    questionsElement.appendChild(submit)
-  })
+  
   
 }
+
+
 
 function incrementScore() {
   let score = parseInt(document.getElementById("correct").innerText);
@@ -100,3 +98,4 @@ function showAnswer(){
   questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} out of ${incorrectCount}.`
 
 }
+
