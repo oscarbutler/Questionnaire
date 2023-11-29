@@ -73,7 +73,12 @@ function showQuestion(){
   const currentQuestion = data[currentQuestionIndex];
   questionsElement.textContent = currentQuestion.question; 
 
-  
+  currentQuestion.answers.forEach((answer, index) => {
+    const choice = document.createElement('button');
+    choice.textContent = answer;
+    choice.addEventListener ('click', () => checkAnswer(index));
+    questionsElement.appendChild(choice);
+  }); 
   
 }
 
