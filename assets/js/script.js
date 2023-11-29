@@ -82,7 +82,9 @@ function showQuestion(){
   
 }
 
-
+function randomiseQuestion() {
+  let randomdata = data[Math.floor(Math.random() * data.length)]
+}
 
 function incrementScore() {
   let score = parseInt(document.getElementById("correct").innerText);
