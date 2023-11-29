@@ -99,3 +99,4 @@ function showAnswer(){
 
 }
 
+showQuestion()
