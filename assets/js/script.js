@@ -101,7 +101,8 @@ let isCorrect = currentQuestion.answer === currentQuestion.correct;
    if (isCorrect){
     incrementScore();
     } else {
-      
+      alert(`This is incorrect, the correct answer is ${currentQuestion.answer}`);
+      incrementWrongScore();
     }
    
 }
