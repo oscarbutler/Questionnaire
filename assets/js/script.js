@@ -88,23 +88,25 @@ function randomiseQuestion() {
 
 function incrementScore() {
   let score = parseInt(document.getElementById("correct").innerText);
-  document.getElementById("correct").innerText = ++oldscore;
+  document.getElementById("correct").innerText = ++correctCount;
 }
 
 function incrementWrongScore() {
   let score = parseInt(document.getElementById("incorrect").innerText);
-  document.getElementById("incorrect").innerText = ++oldscore;
+  document.getElementById("incorrect").innerText = ++incorrectCount;
 }
 
 function checkAnswer(){
-let isCorrect = currentQuestion === answer;
+let isCorrect = currentQuestion.answer === currentQuestion.correct;
    if (isCorrect){
     incrementScore();
     } else {
-      incrementWrongScore()
+      
     }
    
 }
+
+
 
 function showAnswer(){
   questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} out of ${incorrectCount}.`
