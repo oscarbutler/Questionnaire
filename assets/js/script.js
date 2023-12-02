@@ -11,6 +11,7 @@ let correctCount = 0;
 
 let incorrectCount = 0;
 
+const currentQuestion = [currentQuestionIndex]
 
 const data = [
   {
@@ -114,4 +115,4 @@ function showAnswer(){
 
 }
 
-showQuestion()
+showQuestion();
