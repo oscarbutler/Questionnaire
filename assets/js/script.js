@@ -70,7 +70,7 @@ const nextButton = document.createElement('button');
 nextButton.textContent = 'Next Question';
 document.body.appendChild(nextButton);
 
-
+/*Shows the question in the web page*/
 function showQuestion() {
   const currentQuestion = data[currentQuestionIndex];
   questionsElement.textContent = currentQuestion.question;
@@ -84,15 +84,19 @@ function showQuestion() {
 
 }
 
+/*Randomises the data information*/
 function randomiseQuestion() {
   let randomdata = data[Math.floor(Math.random() * data.length)]
 }
 
+
+/*Add Correct Score*/
 function incrementScore() {
   let score = parseInt(document.getElementById("correct").innerText);
   document.getElementById("correct").innerText = ++correctCount;
 }
 
+/*Add Incorrect Score*/
 function incrementWrongScore() {
   let score = parseInt(document.getElementById("incorrect").innerText);
   document.getElementById("incorrect").innerText = ++incorrectCount;
