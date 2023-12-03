@@ -102,6 +102,7 @@ function incrementWrongScore() {
   document.getElementById("incorrect").innerText = ++incorrectCount;
 }
 
+/*Checks if the answer is correct*/
 function checkAnswer() {
   let isCorrect = currentQuestion.answers === currentQuestion.correct;
   if (isCorrect) {
@@ -114,7 +115,7 @@ function checkAnswer() {
 }
 
 
-
+/*Shows the results as the end of the quiz*/
 function showAnswer() { 
   questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} out of ${incorrectCount}.`
 
