@@ -5,7 +5,7 @@ const results = document.getElementById('score');
 
 const currentQuestionIndex = 0;
 
-let score = 0;
+let scores = 0;
 
 let correctCount = 0;
 
@@ -70,17 +70,18 @@ const nextButton = document.createElement('button');
 nextButton.textContent = 'Next Question';
 document.body.appendChild(nextButton);
 
-function showQuestion(){
+
+function showQuestion() {
   const currentQuestion = data[currentQuestionIndex];
-  questionsElement.textContent = currentQuestion.question; 
+  questionsElement.textContent = currentQuestion.question;
 
   currentQuestion.answers.forEach((answer, index) => {
     const choice = document.createElement('button');
     choice.textContent = answer;
-    choice.addEventListener ('click', () => checkAnswer(index));
+    choice.addEventListener('click', () => checkAnswer(index));
     questionsElement.appendChild(choice);
-  }); 
-  
+  });
+
 }
 
 function randomiseQuestion() {
@@ -97,20 +98,20 @@ function incrementWrongScore() {
   document.getElementById("incorrect").innerText = ++incorrectCount;
 }
 
-function checkAnswer(){
-let isCorrect = currentQuestion.answer === currentQuestion.correct;
-   if (isCorrect){
+function checkAnswer() {
+  let isCorrect = currentQuestion.answers === currentQuestion.correct;
+  if (isCorrect) {
     incrementScore();
-    } else {
-      alert(`This is incorrect, the correct answer is ${currentQuestion.answer}`);
-      incrementWrongScore();
-    }
-   
+  } else {
+    alert(`This is incorrect, the correct answer is ${currentQuestion.answer}`);
+    incrementWrongScore();
+  }
+
 }
 
 
 
-function showAnswer(){
+function showAnswer() { 
   questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} out of ${incorrectCount}.`
 
 }
