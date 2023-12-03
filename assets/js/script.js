@@ -72,10 +72,10 @@ document.body.appendChild(nextButton);
 
 /*Shows the question in the web page*/
 function showQuestion() {
-  const currentQuestion = data[currentQuestionIndex];
+  const currentQuestions = data[currentQuestionIndex];
   questionsElement.textContent = currentQuestion.question;
 
-  currentQuestion.answers.forEach((answer, index) => {
+  currentQuestions.answers.forEach((answer, index) => {
     const choice = document.createElement('button');
     choice.textContent = answer;
     choice.addEventListener('click', () => checkAnswer(index));
