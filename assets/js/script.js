@@ -1,3 +1,4 @@
+/*Variables*/
 const questionsElement = document.createElement('qe');
 document.body.appendChild(questionsElement)
 
