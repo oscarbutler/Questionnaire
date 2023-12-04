@@ -2,6 +2,8 @@
 const questionsElement = document.createElement('div');
 document.body.appendChild(questionsElement)
 
+questionsElement.setAttribute('id', 'answers-container');
+
 const results = document.getElementById('score');
 
 let currentQuestionIndex = 0;
@@ -12,7 +14,7 @@ let correctCount = 0;
 
 let incorrectCount = 0;
 
-let currentQuestion = [currentQuestionIndex]
+let currentQuestion = [currentQuestionIndex];
 
 const data = [
   {
