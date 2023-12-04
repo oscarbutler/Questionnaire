@@ -6,6 +6,8 @@ questionsElement.setAttribute('id', 'answers-container');
 
 const results = document.getElementById('score');
 
+const questionText = document.getElementById('question');
+
 let currentQuestionIndex = 0;
 
 let scores = 0;
