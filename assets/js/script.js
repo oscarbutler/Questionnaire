@@ -1,5 +1,5 @@
 /*Variables*/
-const questionsElement = document.createElement('qe');
+const questionsElement = document.createElement('div');
 document.body.appendChild(questionsElement)
 
 const results = document.getElementById('score');
