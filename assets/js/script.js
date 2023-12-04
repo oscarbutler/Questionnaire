@@ -4,7 +4,7 @@ document.body.appendChild(questionsElement)
 
 const results = document.getElementById('score');
 
-const currentQuestionIndex = 0;
+let currentQuestionIndex = 0;
 
 let scores = 0;
 
@@ -12,7 +12,7 @@ let correctCount = 0;
 
 let incorrectCount = 0;
 
-const currentQuestion = [currentQuestionIndex]
+let currentQuestion = [currentQuestionIndex]
 
 const data = [
   {
