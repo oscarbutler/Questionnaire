@@ -82,14 +82,19 @@ function showQuestion() {
   console.log(currentQuestion.question);
   questionText.innerHTML = currentQuestion.question;
 
-  currentQuestions.answers.forEach((answer, index) => {
+   currentQuestion.answers.forEach((answer, index) => {
     const choice = document.createElement('button');
     choice.textContent = answer;
-    choice.addEventListener('click', () => checkAnswer(index));
+    const correct = currentQuestion.correct;
+    chosenAnswer = choice.textContent;
+    choice.addEventListener('click', () => checkAnswer(
+      choice.textContent, correct
+    ));
     questionsElement.appendChild(choice);
   });
 
 }
+
 
 /*Randomises the data information*/
 function randomiseQuestion() {
