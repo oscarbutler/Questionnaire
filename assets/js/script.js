@@ -3,7 +3,7 @@ const questionsElement = document.createElement('div');
 document.body.appendChild(questionsElement)
 
 questionsElement.setAttribute('id', 'answers-container');
-
+console.log(questionText);
 const results = document.getElementById('score');
 
 const questionText = document.getElementById('question');
@@ -73,6 +73,7 @@ const data = [
 
 const nextButton = document.createElement('button');
 nextButton.textContent = 'Next Question';
+nextButton.disabled = true;
 document.body.appendChild(nextButton);
 
 /*Shows the question in the web page*/
