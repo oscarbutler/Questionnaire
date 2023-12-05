@@ -123,7 +123,7 @@ function checkAnswer() {
     alert(`This is incorrect, the correct answer is ${currentQuestion.answer}`);
     incrementWrongScore();
   }
-
+nextButton.disabled = false;
 }
 
 
