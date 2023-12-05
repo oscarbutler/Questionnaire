@@ -78,8 +78,9 @@ document.body.appendChild(nextButton);
 
 /*Shows the question in the web page*/
 function showQuestion() {
-  const currentQuestions = data[currentQuestionIndex];
-  questionsElement.textContent = currentQuestion.question;
+  const currentQuestion = data[currentQuestionIndex];
+  console.log(currentQuestion.question);
+  questionText.innerHTML = currentQuestion.question;
 
   currentQuestions.answers.forEach((answer, index) => {
     const choice = document.createElement('button');
