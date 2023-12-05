@@ -1,12 +1,14 @@
 /*Variables*/
 const questionsElement = document.createElement('div');
-document.body.appendChild(questionsElement)
 
 questionsElement.setAttribute('id', 'answers-container');
-console.log(questionText);
-const results = document.getElementById('score');
+const questionText = document.getElementById('question')
 
-const questionText = document.getElementById('question');
+console.log(questionText)
+
+document.body.appendChild(questionsElement)
+
+const results = document.getElementById('score');
 
 let currentQuestionIndex = 0;
 
@@ -124,7 +126,7 @@ function checkAnswer() {
     incrementWrongScore();
   }
 nextButton.disabled = false;
-}
+} 
 
 
 /*Shows the results as the end of the quiz*/
