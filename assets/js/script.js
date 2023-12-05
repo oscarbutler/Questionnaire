@@ -122,7 +122,7 @@ function checkAnswer(clickedElementText, correctAnswerText) {
   if (isCorrect) {
     incrementScore();
   } else {
-    alert(`This is incorrect, the correct answer is ${currentQuestion.answer}`);
+    alert(`This is incorrect, the correct answer is ${currentQuestion.correct}`);
     incrementWrongScore();
   }
 nextButton.disabled = false;
@@ -131,7 +131,7 @@ nextButton.disabled = false;
 
 /*Shows the results as the end of the quiz*/
 function showAnswer() { 
-  questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} out of ${incorrectCount}.`
+  questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} and got ${incorrectCount} incorrect.`
 
 }
 
