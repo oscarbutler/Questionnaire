@@ -117,8 +117,8 @@ function incrementWrongScore() {
 }
 
 /*Checks if the answer is correct*/
-function checkAnswer() {
-  let isCorrect = currentQuestion.answers === currentQuestion.correct;
+function checkAnswer(clickedElementText, correctAnswerText) {
+  let isCorrect = clickedElementText === correctAnswerText;
   if (isCorrect) {
     incrementScore();
   } else {
