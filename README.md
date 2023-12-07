@@ -16,6 +16,13 @@
 
 ### Color
 
+![Color Palette](documentation/palette-quiz.jpg)
+
+I have used a light green for the background color on the text because it is easy to look at and not conflicting with any other elements on the page.
+
+White is also used with the majority of the page due to the fact that it is not an overwhelming color and will not be the main attraction of the pages.
+
+The font color is black and this is because it is easy to read and very clear on the page. Another reason why I have chosen black to be the font color is because it does not clash with other colors.
 ## Technology Used
 
 - HTML
