@@ -123,11 +123,21 @@ const data = [
   }
 ];
 
-
 const nextButton = document.createElement('button');
 nextButton.textContent = 'Next Question';
 nextButton.disabled = true;
 document.body.appendChild(nextButton);
+
+nextButton.addEventListener('click', () => {
+  currentQuestionIndex++;
+  nextButton.disabled = true;
+
+  if (currentQuestionIndex < data.length) {
+    showQuestion();
+  } else {
+    showAnswer();
+  }
+});
 
 /*Shows the question in the web page*/
 function showQuestion() {
@@ -135,36 +145,35 @@ function showQuestion() {
   console.log(currentQuestion.question);
   questionText.innerHTML = currentQuestion.question;
 
-   currentQuestion.answers.forEach((answer, index) => {
+
+  questionsElement.innerHTML = '';
+
+  currentQuestion.answers.forEach((answer) => {
     const choice = document.createElement('button');
     choice.textContent = answer;
     const correct = currentQuestion.correct;
-    chosenAnswer = choice.textContent;
     choice.addEventListener('click', () => checkAnswer(
       choice.textContent, correct
     ));
     questionsElement.appendChild(choice);
   });
-
 }
-
 
 /*Randomises the data information*/
 function randomiseQuestion() {
-  let randomdata = data[Math.floor(Math.random() * data.length)]
+  let randomdata = data[Math.floor(Math.random() * data.length)];
 }
-
 
 /*Add Correct Score*/
 function incrementScore() {
-  let score = parseInt(document.getElementById("correct").innerText);
-  document.getElementById("correct").innerText = ++correctCount;
+  let score = parseInt(document.getElementById('correct').innerText);
+  document.getElementById('correct').innerText = ++correctCount;
 }
 
 /*Add Incorrect Score*/
 function incrementWrongScore() {
-  let score = parseInt(document.getElementById("incorrect").innerText);
-  document.getElementById("incorrect").innerText = ++incorrectCount;
+  let score = parseInt(document.getElementById('incorrect').innerText);
+  document.getElementById('incorrect').innerText = ++incorrectCount;
 }
 
 /*Checks if the answer is correct*/
@@ -176,14 +185,12 @@ function checkAnswer(clickedElementText, correctAnswerText) {
     alert(`This is incorrect, the correct answer is ${currentQuestion.correct}`);
     incrementWrongScore();
   }
-nextButton.disabled = false;
-} 
-
+  nextButton.disabled = false;
+}
 
 /*Shows the results as the end of the quiz*/
-function showAnswer() { 
-  questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} and got ${incorrectCount} incorrect.`
-
+function showAnswer() {
+  questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} and got ${incorrectCount} incorrect.`;
 }
 
 showQuestion();
