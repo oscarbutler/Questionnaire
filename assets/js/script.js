@@ -132,7 +132,7 @@ nextButton.addEventListener('click', () => {
   currentQuestionIndex++;
   nextButton.disabled = true;
 
-  if (currentQuestionIndex < data.length && length < 10) {
+  if (currentQuestionIndex < data.length && currentQuestionIndex < 10) {
     showQuestion();
   } else {
     showAnswer();
