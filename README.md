@@ -35,4 +35,12 @@ The font color is black and this is because it is easy to read and very clear on
 
 ## Deployment
 
-## Credits
+I deployed to the website Github where I was able to access all of my files with ease and to see the progression over time of how it built a quiz.
+
+There are four files that contain the code that was able to create this website.
+
+- home.html
+- index.html
+- style.css
+- script.js
+
