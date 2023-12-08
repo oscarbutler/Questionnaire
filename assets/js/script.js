@@ -159,7 +159,9 @@ function showQuestion() {
   });
 }
 
-
+function homeButton(){
+  
+}
 
 /*Randomises the data information*/
 function randomiseQuestion() {
