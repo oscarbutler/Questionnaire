@@ -61,6 +61,7 @@ button {
     width: 90px;
     align-content: center;
     background-color: rgb(185, 251, 144);
+
 }
 
 .start {
@@ -102,10 +103,10 @@ footer {
     margin-top: -0px;
 }
 
-#number{
+#number {
     background-color: rgb(185, 251, 144);
-    
-    
+
+
 }
 
 #question-number {
@@ -115,9 +116,10 @@ footer {
     border-radius: 10px;
     position: absolute;
 }
+
 #home {
     margin-top: 60px;
-    position:relative;
+    position: relative;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
 }
