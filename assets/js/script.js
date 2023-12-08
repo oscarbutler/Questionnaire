@@ -159,9 +159,6 @@ function showQuestion() {
   });
 }
 
-function homeButton(){
-  
-}
 
 /*Randomises the data information*/
 function randomiseQuestion() {
@@ -202,5 +199,4 @@ function checkAnswer(clickedElementText, correctAnswerText) {
 function showAnswer() {
   questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} and got ${incorrectCount} incorrect.`;
 }
-
 showQuestion();
