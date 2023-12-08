@@ -176,6 +176,12 @@ function incrementWrongScore() {
   document.getElementById('incorrect').innerText = ++incorrectCount;
 }
 
+/*Question Number*/
+function questionNumber(){
+  
+}
+
+
 /*Checks if the answer is correct*/
 function checkAnswer(clickedElementText, correctAnswerText) {
   let isCorrect = clickedElementText === correctAnswerText;
