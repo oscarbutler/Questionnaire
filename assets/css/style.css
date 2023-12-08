@@ -109,9 +109,11 @@ footer {
 }
 
 #question-number {
-    margin-left: 100%;
+    margin-top: 20px;
     background-color: rgb(185, 251, 144);
-    
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
 }
 #home {
     margin-top: 60px;
