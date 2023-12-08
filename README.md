@@ -33,12 +33,12 @@ The font color is black and this is because it is easy to read and very clear on
 
 ## Wireframes
 
-## Mobile Device
+### Mobile Device
 ![Home Page](documentation/sc-phone-home.png)
 
 ![Index Page](documentation/sc-phone-index.png)
 
-## Tablet Devices
+### Tablet Devices
 ![Home Page](documentation/sc-ipad-home.png)
 
 ![Index Page](documentation/sc-ipad-index.png)
