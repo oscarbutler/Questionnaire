@@ -167,13 +167,12 @@ function randomiseQuestion() {
 
 /*Add Correct Score*/
 function incrementScore() {
-  let score = parseInt(document.getElementById('correct').innerText);
   document.getElementById('correct').innerText = ++correctCount;
 }
 
 /*Add Incorrect Score*/
 function incrementWrongScore() {
-  let score = parseInt(document.getElementById('incorrect').innerText);
+
   document.getElementById('incorrect').innerText = ++incorrectCount;
 }
 
