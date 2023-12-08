@@ -159,6 +159,8 @@ function showQuestion() {
   });
 }
 
+
+
 /*Randomises the data information*/
 function randomiseQuestion() {
   let randomdata = data[Math.floor(Math.random() * data.length)];
@@ -178,7 +180,7 @@ function incrementWrongScore() {
 
 /*Question Number*/
 function questionNumber(){
-  
+  let qnumber = parseInt(document.getElementById('current').innerText);
 }
 
 
