@@ -38,6 +38,11 @@ The font color is black and this is because it is easy to read and very clear on
 
 ![Index Page](documentation/sc-phone-index.png)
 
+## Tablet Devices
+![Home Page](documentation/sc-ipad-home.png)
+
+![Index Page](documentation/sc-ipad-index.png)
+
 
 
 ## Deployment
