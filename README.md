@@ -33,6 +33,13 @@ The font color is black and this is because it is easy to read and very clear on
 
 ## Wireframes
 
+## Mobile Device
+![Home Page](documentation/sc-phone-home.png)
+
+![Index Page](documentation/sc-phone-index.png)
+
+
+
 ## Deployment
 
 I deployed to the website Github where I was able to access all of my files with ease and to see the progression over time of how it built a quiz.
