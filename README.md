@@ -10,6 +10,8 @@
 
 ## Credits
 
+- I had help with randomizing the questions inside the data element by watching this [Video]  (https://www.youtube.com/watch?v=rlYincT2Qzc)
+
 ## Design
 
 ### Fonts
