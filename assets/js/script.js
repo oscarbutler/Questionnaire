@@ -158,12 +158,9 @@ function showQuestion() {
     questionsElement.appendChild(choice);
   });
 }
-
-
 /*Randomises the data information*/
-function randomiseQuestion() {
-  let randomdata = data[Math.floor(Math.random() * data.length)];
-}
+data.sort(() => Math.random() - 0.5);
+
 
 /*Add Correct Score*/
 function incrementScore() {
@@ -178,7 +175,7 @@ function incrementWrongScore() {
 
 /*Question Number*/
 function questionNumber(){
-  let qnumber = parseInt(document.getElementById('current').innerText);
+  document.getElementById('current').innerText = current.addEventListener('click' , (current) => +1)
 }
 
 
@@ -199,3 +196,4 @@ function showAnswer() {
   questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} and got ${incorrectCount} incorrect.`;
 }
 showQuestion();
+
