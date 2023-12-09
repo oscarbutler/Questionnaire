@@ -27,11 +27,12 @@ White is also used with the majority of the page due to the fact that it is not 
 The font color is black and this is because it is easy to read and very clear on the page. Another reason why I have chosen black to be the font color is because it does not clash with other colors.
 ## Technology Used
 
-- HTML
-- CSS
-- Javascript
-- VS Code
-- Git Hub
+- HTML was for the foundation of the website.
+- CSS was for styling and to create an appropriate layout for the website.
+- Javascript was needed to make the website reactive.
+- VS Code was used to write the code.
+- Git Hub held all the code used in the website.
+- Balsamiq, I used this for planning the design of the website. 
 
 ## Wireframes
 
