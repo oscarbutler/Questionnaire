@@ -6,17 +6,17 @@ const questionText = document.getElementById('question');
 
 document.body.appendChild(questionsElement);
 
-const results = document.getElementById('score');
+
 
 let currentQuestionIndex = 0;
 
-let scores = 0;
+
 
 let correctCount = 0;
 
 let incorrectCount = 0;
 
-let currentQuestion = [currentQuestionIndex];
+
 
 const data = [
   {
