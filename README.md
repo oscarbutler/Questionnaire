@@ -8,6 +8,8 @@
 
 - The information should be correct in order for people to potentially return to the website.
 
+- The questions should be random which can allow a user to return and play the quiz again.
+
 ## Credits
 
 - I had help with randomizing the questions inside the data element by watching this [Video]  (https://www.youtube.com/watch?v=rlYincT2Qzc)
@@ -26,6 +28,8 @@ White is also used with the majority of the page due to the fact that it is not 
 
 The font color is black and this is because it is easy to read and very clear on the page. Another reason why I have chosen black to be the font color is because it does not clash with other colors.
 ## Technology Used
+
+I have used a variety of software which has been vital in creating a successful website and these are:
 
 - HTML was for the foundation of the website.
 - CSS was for styling and to create an appropriate layout for the website.
