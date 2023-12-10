@@ -2,11 +2,9 @@
 const questionsElement = document.createElement('div');
 
 questionsElement.setAttribute('id', 'answers-container');
-const questionText = document.getElementById('question')
+const questionText = document.getElementById('question');
 
-console.log(questionText)
-
-document.body.appendChild(questionsElement)
+document.body.appendChild(questionsElement);
 
 const results = document.getElementById('score');
 
@@ -142,7 +140,6 @@ nextButton.addEventListener('click', () => {
 /*Shows the question in the web page*/
 function showQuestion() {
   const currentQuestion = data[currentQuestionIndex];
-  console.log(currentQuestion.question);
   questionText.innerHTML = currentQuestion.question;
 
 
@@ -185,7 +182,7 @@ function checkAnswer(clickedElementText, correctAnswerText) {
   if (isCorrect) {
     incrementScore();
   } else {
-    alert(`This is incorrect, the correct answer is ${currentQuestion.correct}`);
+    alert(`This is incorrect, try again!`);
     incrementWrongScore();
   }
   nextButton.disabled = false;
