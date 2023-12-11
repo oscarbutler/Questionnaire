@@ -205,5 +205,6 @@ function checkAnswer(clickedElementText, correctAnswerText) {
 /*Shows the results as the end of the quiz*/
 function showAnswer() {
   questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} and got ${incorrectCount} incorrect.`;
+  document.getElementById('question-number').style.visibility = 'hidden'
 }
 showQuestion();
