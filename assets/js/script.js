@@ -14,7 +14,12 @@ let correctCount = 0;
 
 let incorrectCount = 0;
 
+const totalNumberOfQuestions = 10; 
 
+/*Current Question Tracker*/
+const currentQuestionTracker =  document.getElementById('current');
+
+console.log(currentQuestionTracker)
 
 const data = [{
     'question': 'What is the world\'s smallest country?',
@@ -125,9 +130,12 @@ document.body.appendChild(nextButton);
 
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++;
+  console.log(currentQuestionIndex)
+  questionNumber()
+  console.log(currentQuestionTracker)
   nextButton.disabled = true;
 
-  if (currentQuestionIndex < data.length && currentQuestionIndex < 10) {
+  if (currentQuestionIndex < data.length && currentQuestionIndex < totalNumberOfQuestions - 1) {
     showQuestion();
   } else {
     showAnswer();
@@ -169,7 +177,7 @@ function incrementWrongScore() {
 
 /*Question Number*/
 function questionNumber() {
-  document.getElementById('current').innerText = current.addEventListener('click', () => +1);
+  document.getElementById('current').innerText = currentQuestionIndex + 1;
 }
 
 
