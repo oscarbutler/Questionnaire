@@ -20,8 +20,6 @@ const totalNumberOfQuestions = 11;
 /*Current Question Tracker*/
 const currentQuestionTracker = document.getElementById('current');
 
-console.log(currentQuestionTracker)
-
 const data = [{
     'question': 'What is the world\'s smallest country?',
     'answers': ['Monaco', 'Vatican City', 'Georgia', 'San Marino'],
@@ -131,12 +129,10 @@ document.body.appendChild(nextButton);
 
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++;
-  console.log(currentQuestionIndex)
-  questionNumber()
-  console.log(currentQuestionTracker)
+  questionNumber();
   nextButton.disabled = true;
 
-  if (currentQuestionIndex < data.length && currentQuestionIndex < totalNumberOfQuestions - 1  ) {
+  if (currentQuestionIndex < data.length && currentQuestionIndex < totalNumberOfQuestions - 1) {
     showQuestion();
   } else {
     showAnswer();
@@ -154,14 +150,11 @@ function showQuestion() {
   currentQuestion.answers.forEach((answer) => {
     const choice = document.createElement('button');
     choice.setAttribute('class', 'answers-buttons');
-    console.log(choice)
     choice.textContent = answer;
     const correct = currentQuestion.correct;
     choice.addEventListener('click', () => {
       checkAnswer(choice.textContent, correct)
-      console.log('button was clicked')
       const allAnswersButtons = document.getElementsByClassName('answers-buttons');
-      console.log(allAnswersButtons)
       for (let i = 0, len = allAnswersButtons.length; i < len; i++) {
         allAnswersButtons[i].disabled = true;
       }
@@ -188,7 +181,6 @@ function incrementWrongScore() {
 function questionNumber() {
   document.getElementById('current').innerText = currentQuestionIndex + 1;
 }
-
 
 /*Checks if the answer is correct*/
 function checkAnswer(clickedElementText, correctAnswerText) {
