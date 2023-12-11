@@ -26,6 +26,8 @@ header {
     width: 100%;
     position: absolute;
     top: 0;
+    z-index: 999;
+    
 }
 
 div#questions {
@@ -54,12 +56,11 @@ div#questions {
 
 button {
     border-color: black;
-    height: 50px;
-    width: 100px;
-    align-content: center;
+    height: 70px;
+    width: 120px;
     background-color: rgb(185, 251, 144);
-    position: relative;
-    margin: 10px;
+    margin: 15px;
+    font-size: 14px;
 }
 
 .start {
@@ -68,14 +69,19 @@ button {
 
 .intro {
     color: black;
+    width: 100%;
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
 }
 
 .introduction {
     background-color: rgb(185, 251, 144);
     margin-top: 140px;
-    width: 500px;
+    max-width: 100%;
     padding: 30px;
     border-radius: 50px;
+    align-items: center;
 }
 
 footer {
@@ -88,7 +94,8 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: rgba(185, 251, 144, 1);
-    height: 5px;
+    height: 12px;
+    align-items: center;
 }
 
 .go {
@@ -143,5 +150,4 @@ footer {
 
 .footer-link{
     color: black;
-
 }
