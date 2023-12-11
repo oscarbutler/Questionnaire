@@ -4,6 +4,7 @@
 const questionsElement = document.createElement('div');
 
 questionsElement.setAttribute('id', 'answers-container');
+
 const questionText = document.getElementById('question');
 
 document.body.appendChild(questionsElement);
@@ -14,10 +15,10 @@ let correctCount = 0;
 
 let incorrectCount = 0;
 
-const totalNumberOfQuestions = 10; 
+const totalNumberOfQuestions = 11;
 
 /*Current Question Tracker*/
-const currentQuestionTracker =  document.getElementById('current');
+const currentQuestionTracker = document.getElementById('current');
 
 console.log(currentQuestionTracker)
 
@@ -78,7 +79,7 @@ const data = [{
   },
   {
     'question': 'Who wrote the play "Romeo and Juliet"?',
-    'answers': ['Charles Dickens', 'Jane Austen', 'William Shakespeare', 'Homer'],
+    'answers': ['Charles Dickens', 'Jane Austen', 'William Shakespeare', 'Pablo Picasso'],
     'correct': 'William Shakespeare'
   },
   {
@@ -135,7 +136,7 @@ nextButton.addEventListener('click', () => {
   console.log(currentQuestionTracker)
   nextButton.disabled = true;
 
-  if (currentQuestionIndex < data.length && currentQuestionIndex < totalNumberOfQuestions - 1) {
+  if (currentQuestionIndex < data.length && currentQuestionIndex < totalNumberOfQuestions - 1  ) {
     showQuestion();
   } else {
     showAnswer();
@@ -152,11 +153,19 @@ function showQuestion() {
 
   currentQuestion.answers.forEach((answer) => {
     const choice = document.createElement('button');
+    choice.setAttribute('class', 'answers-buttons');
+    console.log(choice)
     choice.textContent = answer;
     const correct = currentQuestion.correct;
-    choice.addEventListener('click', () => checkAnswer(
-      choice.textContent, correct
-    ));
+    choice.addEventListener('click', () => {
+      checkAnswer(choice.textContent, correct)
+      console.log('button was clicked')
+      const allAnswersButtons = document.getElementsByClassName('answers-buttons');
+      console.log(allAnswersButtons)
+      for (let i = 0, len = allAnswersButtons.length; i < len; i++) {
+        allAnswersButtons[i].disabled = true;
+      }
+    });
     questionsElement.appendChild(choice);
   });
 }
