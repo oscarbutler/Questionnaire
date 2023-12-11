@@ -22,8 +22,6 @@ h2 {
     border-radius: 25px;
 }
 
-
-
 header {
     background-color: rgb(185, 251, 144);
     width: 100%;
@@ -106,8 +104,6 @@ footer {
 
 #number {
     background-color: rgb(185, 251, 144);
-
-
 }
 
 #question-number {
@@ -131,11 +127,12 @@ footer {
     border-color: black;
     text-decoration: none;
 }
-#home-one{
+
+#home-one {
     text-decoration: none;
     color: black;
-align-items: center;
-text-decoration: underline;
+    align-items: center;
+    text-decoration: underline;
 }
 
 .link {
