@@ -6,11 +6,7 @@ const questionText = document.getElementById('question');
 
 document.body.appendChild(questionsElement);
 
-
-
 let currentQuestionIndex = 0;
-
-
 
 let correctCount = 0;
 
@@ -18,8 +14,7 @@ let incorrectCount = 0;
 
 
 
-const data = [
-  {
+const data = [{
     'question': 'What is the world\'s smallest country?',
     'answers': ['Monaco', 'Vatican City', 'Georgia', 'San Marino'],
     'correct': 'Vatican City'
@@ -171,8 +166,8 @@ function incrementWrongScore() {
 }
 
 /*Question Number*/
-function questionNumber(){
-  document.getElementById('current').innerText = current.addEventListener('click' , (current) => +1)
+function questionNumber() {
+  document.getElementById('current').innerText = current.addEventListener('click', (current) => +1)
 }
 
 
@@ -193,4 +188,3 @@ function showAnswer() {
   questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} and got ${incorrectCount} incorrect.`;
 }
 showQuestion();
-
