@@ -1,3 +1,5 @@
+/* jshint esversion:8 */
+
 /*Variables*/
 const questionsElement = document.createElement('div');
 
@@ -167,7 +169,7 @@ function incrementWrongScore() {
 
 /*Question Number*/
 function questionNumber() {
-  document.getElementById('current').innerText = current.addEventListener('click', (current) => +1)
+  document.getElementById('current').innerText = current.addEventListener('click', () => +1);
 }
 
 
