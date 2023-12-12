@@ -27,7 +27,6 @@ header {
     position: absolute;
     top: 0;
     z-index: 999;
-    
 }
 
 div#questions {
@@ -51,7 +50,6 @@ div#questions {
     border-radius: 30px;
     padding: 10px;
     margin-top: -5px;
-
 }
 
 button {
@@ -148,6 +146,6 @@ footer {
     border-radius: 15px;
 }
 
-.footer-link{
+.footer-link {
     color: black;
 }
