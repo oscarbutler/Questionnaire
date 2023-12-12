@@ -3,8 +3,6 @@
 /*Variables*/
 const questionsElement = document.createElement('div');
 
-questionsElement.setAttribute('id', 'answers-container');
-
 const questionText = document.getElementById('question');
 
 document.body.appendChild(questionsElement);
@@ -20,6 +18,7 @@ const totalNumberOfQuestions = 11;
 /*Current Question Tracker*/
 const currentQuestionTracker = document.getElementById('current');
 
+/*The Questions*/
 const data = [{
     'question': 'What is the world\'s smallest country?',
     'answers': ['Monaco', 'Vatican City', 'Georgia', 'San Marino'],
@@ -122,6 +121,7 @@ const data = [{
   }
 ];
 
+/*Next Button*/
 const nextButton = document.createElement('button');
 nextButton.textContent = 'Next Question';
 nextButton.disabled = true;
@@ -144,7 +144,6 @@ function showQuestion() {
   const currentQuestion = data[currentQuestionIndex];
   questionText.innerHTML = currentQuestion.question;
 
-
   questionsElement.innerHTML = '';
 
   currentQuestion.answers.forEach((answer) => {
@@ -164,7 +163,6 @@ function showQuestion() {
 }
 /*Randomises the data information*/
 data.sort(() => Math.random() - 0.5);
-
 
 /*Add Correct Score*/
 function incrementScore() {
@@ -199,4 +197,5 @@ function showAnswer() {
   questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} and got ${incorrectCount} incorrect.`;
   document.getElementById('question-number').style.visibility = 'hidden'
 }
+
 showQuestion();
