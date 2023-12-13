@@ -26,6 +26,8 @@ This webpage is compatible with a variety of browsers and this is shown througho
 
 ## Responsive Checker
 
+In order to check how responsive the web pages are I used [responsive viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
+
 ### Information Page
 
 ![](documentation/info-responsive.png)
@@ -43,7 +45,7 @@ This webpage is compatible with a variety of browsers and this is shown througho
 | feature | action | expected result | tested | passed | comments |
 | --- | --- | --- | --- | --- | --- |
 | Go to the quiz link| Click on the "Go To The Quiz!" link | The user is redirected to the question page | Yes | Yes | - |
-| Introduction Page button | Click on the "Introduction Page" link | The user is redirected to the introduction page | Yes | Yes | - |
+| Infomation Page button | Click on the "Infomation Page" link | The user is redirected to the infomation page | Yes | Yes | - |
 | Clicking an answer | Click on the answers given | The answer should either add 1 to correct or incorrect | Yes | Yes | - |
 | Next Question button | Click on the next question button | The user should see a random question with appropriate answers | Yes | Yes | - |
 | Answer buttons | Click on one of the answer buttons | The user should see an error message if the answer is incorrect. It should also add an extra score to either incorrect or correct answer. | Yes | Yes | - |
@@ -53,6 +55,8 @@ This webpage is compatible with a variety of browsers and this is shown througho
 
 ## Lighthouse
 
+In order to check the how the successful the webpages are I used the lighthouse report in the devtools.
+
 ### Introduction Page
 
 ![Introduction Page](documentation/lightshouse-intro.png)
@@ -60,8 +64,6 @@ This webpage is compatible with a variety of browsers and this is shown througho
 ### Main Page
 
 ![Main Page](documentation/lighthouse-main.png)
-
-## Bugs
 
 ## HTML Check
 
