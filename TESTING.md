@@ -32,3 +32,5 @@
 ![Main Page](documentation/main-page-checker.png)
 
 ## CSS Checker
+
+![CSS](documentation/css-checker.png)
