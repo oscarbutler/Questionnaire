@@ -22,3 +22,9 @@
 ### Main Page
 
 ![Main Page](documentation/lighthouse-main.png)
+
+## Bugs
+
+## HTML Check
+
+## CSS Checker
