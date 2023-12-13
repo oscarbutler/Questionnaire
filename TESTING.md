@@ -8,6 +8,12 @@
 
 ![](documentation/info-responsive-two.png)
 
+### Main Page
+
+![](documentation/main-responsive.png)
+
+![](documentation/main-responsive-two.png)
+
 ## Manual Testing
 
 | feature | action | expected result | tested | passed | comments |
