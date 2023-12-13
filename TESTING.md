@@ -1,5 +1,9 @@
 # Testing
 
+## Compatability
+
+I will be choosing three different browsers and these are Firefox, Google Chrome and Microsoft Edge.
+
 ## Responsive Checker
 
 ### Information Page
