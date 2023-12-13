@@ -1,5 +1,13 @@
 # Testing
 
+## Responsive Checker
+
+### Information Page
+
+![](documentation/info-responsive.png)
+
+![](documentation/info-responsive-two.png)
+
 ## Manual Testing
 
 | feature | action | expected result | tested | passed | comments |
