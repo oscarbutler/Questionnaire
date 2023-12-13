@@ -13,3 +13,12 @@
 | Question Number | The question number when going to next question | The question number should go up by one and dissapear at the end | Yes | Yes | - |
 | Credits link | Click on credits link | It should open another tab that shows a Github account | Yes | Yes | - |
 
+## Lighthouse
+
+### Introduction Page
+
+!(documentation\lightshouse-intro.png)
+
+### Main Page
+
+!(documentation\lighthouse-main.png)
