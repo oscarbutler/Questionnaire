@@ -2,7 +2,19 @@
 
 ## Compatability
 
-I will be choosing three different browsers and these are Firefox, Google Chrome and Microsoft Edge.
+I will be choosing three different browsers and these are Opera, Google Chrome and Microsoft Edge.
+
+### Opera
+
+![](documentation/opera-test-quiz.png)
+
+### Google Chrome
+
+![](documentation/google-chrome-quiz.png)
+
+### Microsoft Edge
+
+![](documentation/microsoft-edge-quiz.png)
 
 ## Responsive Checker
 
