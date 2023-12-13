@@ -67,10 +67,20 @@ In order to check the how the successful the webpages are I used the lighthouse 
 
 ## HTML Check
 
+I used [HTML checker](https://validator.w3.org/nu/#textarea) to ensure there were not any errors that I made.
+
 ![Introduction Page](documentation/intro-page-checker.png)
 
 ![Main Page](documentation/main-page-checker.png)
 
 ## CSS Checker
 
-![CSS](documentation/css-checker.png)
+For checking the css I used [CSS checker](https://jigsaw.w3.org/css-validator/)
+
+![](documentation/css-checker.png)
+
+## Javascript Checker
+
+In order to make sure that there were not errors in the javascript code I used [JShint.com](https://jshint.com/)
+
+![](documentation/js-check.png)
