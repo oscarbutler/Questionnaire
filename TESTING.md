@@ -17,8 +17,8 @@
 
 ### Introduction Page
 
-!(documentation\lightshouse-intro.png)
+![Introduction Page](documentation/lightshouse-intro.png)
 
 ### Main Page
 
-!(documentation\lighthouse-main.png)
+![Main Page](documentation/lighthouse-main.png)
