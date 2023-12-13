@@ -4,15 +4,23 @@
 
 I will be choosing three different browsers and these are Opera, Google Chrome and Microsoft Edge.
 
+This webpage is compatible with a variety of browsers and this is shown throughout these images because there are not any differences within the three browsers.
+
 ### Opera
+
+![](documentation/opera-test-quiz-info.png)
 
 ![](documentation/opera-test-quiz.png)
 
 ### Google Chrome
 
+![](documentation/chrome-test-info.png)
+
 ![](documentation/google-chrome-quiz.png)
 
 ### Microsoft Edge
+
+![](documentation/microsoft-edge-test-info.png)
 
 ![](documentation/microsoft-edge-quiz.png)
 
