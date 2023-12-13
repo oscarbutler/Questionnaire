@@ -27,4 +27,8 @@
 
 ## HTML Check
 
+![Introduction Page](documentation/intro-page-checker.png)
+
+![Main Page](documentation/main-page-checker.png)
+
 ## CSS Checker
