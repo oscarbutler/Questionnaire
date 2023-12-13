@@ -15,9 +15,6 @@ let incorrectCount = 0;
 
 const totalNumberOfQuestions = 11;
 
-/*Current Question Tracker*/
-const currentQuestionTracker = document.getElementById('current');
-
 /*The Questions*/
 const data = [{
     'question': 'What is the world\'s smallest country?',
@@ -152,7 +149,7 @@ function showQuestion() {
     choice.textContent = answer;
     const correct = currentQuestion.correct;
     choice.addEventListener('click', () => {
-      checkAnswer(choice.textContent, correct)
+      checkAnswer(choice.textContent, correct);
       const allAnswersButtons = document.getElementsByClassName('answers-buttons');
       for (let i = 0, len = allAnswersButtons.length; i < len; i++) {
         allAnswersButtons[i].disabled = true;
@@ -195,7 +192,7 @@ function checkAnswer(clickedElementText, correctAnswerText) {
 /*Shows the results as the end of the quiz*/
 function showAnswer() {
   questionsElement.textContent = `You have completed the quiz. Your score is ${correctCount} and got ${incorrectCount} incorrect.`;
-  document.getElementById('question-number').style.visibility = 'hidden'
+  document.getElementById('question-number').style.visibility = 'hidden';
 }
 
 showQuestion();
