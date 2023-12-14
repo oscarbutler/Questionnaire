@@ -14,7 +14,7 @@
 
 The information page is there to show the basics of how the quiz operates.
 
-It also contains a link in order to get to to the main page
+It also contains a link to get to the main page which is easily accessible.
 
 ![](documentation/quiz-info.png)
 
@@ -22,7 +22,7 @@ It also contains a link in order to get to to the main page
 
 I have called this the main page because it is going to be where the majority of the time spent on the website will be.
 
-
+It contains a link to the information page which is easily visible.
 
 ![](documentation/quiz-main.png)
 
