@@ -24,7 +24,7 @@
 
 - The quiz should be knowledgeable so that people can partake in the quiz regularly so that they can learn different facts.
 
-- The questions should be a wide variety of topics in order for it to be the best it can be. 
+- The questions should be a wide variety of topics for it to be the best it can be. 
 
 ## Features
 
@@ -148,10 +148,7 @@ I have used a variety of software which has been vital in creating a successful 
 
 I deployed to the website Github where I was able to access all of my files with ease and to see the progression over time of how it built a quiz.
 
-There are four files that contain the code that was able to create this website.
+The link to the Github repository is [here](https://github.com/oscarbutler/Quiz)
 
-- home.html
-- index.html
-- style.css
-- script.js
+The link to a live page is [here](https://oscarbutler.github.io/Quiz/index.html)
 
