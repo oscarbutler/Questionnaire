@@ -10,6 +10,14 @@
 
 - The questions should be random which can allow a user to return and play the quiz again.
 
+## Information Page
+
+
+
+## Main Page
+
+
+
 ## Credits
 
 - I had help with randomizing the questions inside the data element by watching this [Video]  (https://www.youtube.com/watch?v=rlYincT2Qzc)
