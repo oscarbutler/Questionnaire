@@ -61,6 +61,11 @@ I have used a light green for the background color on the text because it is eas
 White is also used with the majority of the page due to the fact that it is not an overwhelming color and will not be the main attraction of the pages.
 
 The font color is black and this is because it is easy to read and very clear on the page. Another reason why I have chosen black to be the font color is because it does not clash with other colors.
+
+## Testing
+
+Please look at [TESTING.md](TESTING.md) file.
+
 ## Technology Used
 
 I have used a variety of software which has been vital in creating a successful website and these are:
