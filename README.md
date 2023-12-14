@@ -114,7 +114,7 @@ The git commit 9307357 was described as "Imput information into user section" Th
 
 I have used a light green for the background color on the text because it is easy to look at and not conflicting with any other elements on the page.
 
-White is also used with the majority of the page due to the fact that it is not an overwhelming color and will not be the main attraction of the pages.
+White is also used with the majority of the page because it is not an overwhelming color and will not be the main attraction of the pages.
 
 Due to light green being a very easy color to see it will allow users to view the web page for a longer duration of time without eye strain.
 
