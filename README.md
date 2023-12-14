@@ -26,6 +26,8 @@ It contains a link to the information page which is easily visible.
 
 ![](documentation/quiz-main.png)
 
+![Incorrect Alert](documentation/incorrect-alert.png)
+
 ## Credits
 
 - I had help with randomizing the questions inside the data element by watching this [Video]  (https://www.youtube.com/watch?v=rlYincT2Qzc)
@@ -53,6 +55,7 @@ I have used a variety of software which has been vital in creating a successful 
 - VS Code was used to write the code.
 - Git Hub held all the code used in the website.
 - Balsamiq, I used this for planning the design of the website. 
+
 
 ## Wireframes
 
