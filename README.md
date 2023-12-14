@@ -14,9 +14,9 @@
 
 - I had help with randomizing the questions inside the data element by watching this [Video]  (https://www.youtube.com/watch?v=rlYincT2Qzc)
 
-## Design
+- I have also used [Code Institute](https://codeinstitute.net/) to develop my knowledge of HTML, CSS and Javascript. It has also helped me learn new techniques I can implement into my code.
 
-### Fonts
+## Design
 
 ### Color
 
