@@ -2,13 +2,29 @@
 
 ## User
 
-- The website should be easily visible.
+### First Time User
+
+- The website should be easily visible so first-time users would get drawn to play the quiz
 
 - The colors should not interfere with each other and make it difficult to see information and buttons.
 
-- The information should be correct in order for people to potentially return to the website.
+- When you open the web page it goes straight to the quiz so that it looks appealing.
+
+- There is an information page that lets a user know what the web page is about.
+
+### Returning User
+
+- The information should be correct for people to potentially return to the website.
 
 - The questions should be random which can allow a user to return and play the quiz again.
+
+- The overall layout of the page should not be overwhelming so that someone does not want to return to the page.
+
+### Frequent User
+
+- The quiz should be knowledgeable so that people can partake in the quiz regularly so that they can learn different facts.
+
+- The questions should be a wide variety of topics in order for it to be the best it can be. 
 
 ## Features
 
