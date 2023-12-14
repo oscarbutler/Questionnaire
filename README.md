@@ -36,6 +36,10 @@ It also shows that when a question is answered correctly the scores are updated 
 
 ![Questions Disabled & Score Counter](documentation/question-disabled.png)
 
+After the quiz is completed it will display how many questions you got correct and how many incorrect.
+
+![Quiz After It's Completed](documentation/quiz-finished.png)
+
 ## Credits
 
 - I had help with randomizing the questions inside the data element by watching this [Video]  (https://www.youtube.com/watch?v=rlYincT2Qzc)
