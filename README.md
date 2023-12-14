@@ -62,9 +62,15 @@ After the quiz is completed it will display how many questions you got correct a
 
 The header shows the title and is made to stand out and clearly show the user what the website is about.
 
+The header should be very clear in order for the title to be seen with ease. 
+
+I have made the header the same color as the background of other elements to make sure it does not clash.
+
 ![](documentation/quiz-header.png)
 
 ### Footer
+
+The footer is the same color as the header and background color for other elements for the same reason, so it does not clash.
 
 The footer contains a credits link which will take you to this [Github](https://github.com/oscarbutler/Quiz) repository.
 
@@ -109,6 +115,8 @@ The git commit 9307357 was described as "Imput information into user section" Th
 I have used a light green for the background color on the text because it is easy to look at and not conflicting with any other elements on the page.
 
 White is also used with the majority of the page due to the fact that it is not an overwhelming color and will not be the main attraction of the pages.
+
+Due to light green being a very easy color to see it will allow users to view the web page for a longer duration of time without eye strain.
 
 The font color is black and this is because it is easy to read and very clear on the page. Another reason why I have chosen black to be the font color is because it does not clash with other colors.
 
