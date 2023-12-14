@@ -124,6 +124,9 @@ I have used a variety of software which has been vital in creating a successful 
 - VS Code was used to write the code.
 - Git Hub held all the code used in the website.
 - Balsamiq, I used this for planning the design of the website. 
+- JShint was vital to see if the javascript was incorrect
+- Validator W3, I used this to check the HTML code for any errors
+- Jigsaw W3 was used to check the CSS code.
 
 
 ## Wireframes
