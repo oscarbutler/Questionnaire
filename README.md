@@ -70,18 +70,17 @@ I got my favicons from the website [Icons8](https://icons8.com/icons).
 
 ### Solved
 
+The question would not randomise so I looked at videos and replaced the code from a video from the credit section with this code ```data.sort(() => Math.random() - 0.5);```.
 
+The question counter would go over the limit so I added the code which would make it so it was not displayed once the quiz was completed. I did this by adding this code to the show question function ```document.getElementById('question-number').style.visibility = 'hidden';```.
 
 ### Unsolved
 
+There are no unsolved bugs.
 
 ### Mistakes
 
-A mistake I made was that in javascript I would create a function for one element which was not necessary.
-
-Another mistake I made was that I would leave random spaces and empty lines which would look very messy.
-
-I can be vague when writing my git commits.
+The git commit ab1c72f the description is "space between the buttons". This should have been "Add space between the buttons" because it is specific and explains if it is adding space or removing it.
 
 ## Design
 
