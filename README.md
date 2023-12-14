@@ -74,6 +74,10 @@ I got my favicons from the website [Icons8](https://icons8.com/icons).
 
 ### Mistakes
 
+A mistake I made was that in javascript I would create a function for one element which was not necessary.
+
+Another mistake I made was that I would leave random spaces and empty lines which would look very messy.
+
 ## Design
 
 ### Color
