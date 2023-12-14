@@ -64,7 +64,11 @@ The screenshots I took of my project I made using the "Snip and Sketch" applicat
 
 ## Media
 
-Favicon from
+I got my favicons from the website [Icons8](https://icons8.com/icons).
+
+## Bugs
+
+
 
 ## Design
 
