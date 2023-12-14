@@ -12,11 +12,11 @@
 
 ## Information Page
 
-
+![](documentation/quiz-info.png)
 
 ## Main Page
 
-
+![](documentation/quiz-main.png)
 
 ## Credits
 
