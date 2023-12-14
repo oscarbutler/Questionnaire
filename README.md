@@ -120,6 +120,8 @@ Due to light green being a very easy color to see it will allow users to view th
 
 The font color is black and this is because it is easy to read and very clear on the page. Another reason why I have chosen black to be the font color is because it does not clash with other colors.
 
+Black is a very visible font color especially due to the rest of the colors on the page being so light, this means people should not have any difficulty seeing the text no matter what screen they are viewing it on.
+
 ## Testing
 
 Please look at [TESTING.md](TESTING.md) file.
