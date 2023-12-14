@@ -44,7 +44,7 @@ After the quiz is completed it will display how many questions you got correct a
 
 ### Header
 
-The header shows the title and is made to stand out and clearly show to the user what the website is about.
+The header shows the title and is made to stand out and clearly show the user what the website is about.
 
 ![](documentation/quiz-header.png)
 
@@ -59,6 +59,8 @@ The footer contains a credits link which will take you to this [Github](https://
 - I had help with randomizing the questions inside the data element by watching this [Video](https://www.youtube.com/watch?v=rlYincT2Qzc)
 
 - I have also used [Code Institute](https://codeinstitute.net/) to develop my knowledge of HTML, CSS and Javascript. It has also helped me learn new techniques I can implement into my code.
+
+The screenshots I took of my project I made using the "Snip and Sketch" application.
 
 ## Media
 
