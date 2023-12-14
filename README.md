@@ -30,9 +30,11 @@ I incorporated an alert message when there is an incorrect answer. It will appea
 
 ![Incorrect Alert](documentation/incorrect-alert.png)
 
-In this image, the question shows that when an answer is clicked the rest of questions are disabled which makes it so it can not pick more than one answer.
+In this image, the question shows that when an answer is clicked the rest of the answers are disabled which makes it so it can not pick more than one answer.
 
-![Questions Disabled](documentation/question-disabled.png)
+It also shows that when a question is answered correctly the scores are updated accurately
+
+![Questions Disabled & Score Counter](documentation/question-disabled.png)
 
 ## Credits
 
