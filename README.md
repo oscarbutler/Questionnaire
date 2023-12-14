@@ -68,7 +68,11 @@ I got my favicons from the website [Icons8](https://icons8.com/icons).
 
 ## Bugs
 
+### Solved
 
+### Unsolved
+
+### Mistakes
 
 ## Design
 
