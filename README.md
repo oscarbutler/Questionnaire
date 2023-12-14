@@ -30,6 +30,10 @@ I incorporated an alert message when there is an incorrect answer. It will appea
 
 ![Incorrect Alert](documentation/incorrect-alert.png)
 
+In this image, the question shows that when an answer is clicked the rest of questions are disabled which makes it so it can not pick more than one answer.
+
+![Questions Disabled](documentation/question-disabled.png)
+
 ## Credits
 
 - I had help with randomizing the questions inside the data element by watching this [Video]  (https://www.youtube.com/watch?v=rlYincT2Qzc)
