@@ -14,7 +14,7 @@
 
 The information page is there to show the basics of how the quiz operates.
 
-It also contains a link to get to the main page which is easily accessible.
+It also contains a link to the main page which is easily accessible.
 
 ![](documentation/quiz-info.png)
 
@@ -42,9 +42,13 @@ After the quiz is completed it will display how many questions you got correct a
 
 ## Credits
 
-- I had help with randomizing the questions inside the data element by watching this [Video]  (https://www.youtube.com/watch?v=rlYincT2Qzc)
+- I had help with randomizing the questions inside the data element by watching this [Video](https://www.youtube.com/watch?v=rlYincT2Qzc)
 
 - I have also used [Code Institute](https://codeinstitute.net/) to develop my knowledge of HTML, CSS and Javascript. It has also helped me learn new techniques I can implement into my code.
+
+## Media
+
+There is no media used in this project.
 
 ## Design
 
