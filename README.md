@@ -44,8 +44,15 @@ After the quiz is completed it will display how many questions you got correct a
 
 ### Header
 
+The header shows the title and is made to stand out and clearly show to the user what the website is about.
+
+![](documentation/quiz-header.png)
 
 ### Footer
+
+The footer contains a credits link which will take you to this [Github](https://github.com/oscarbutler/Quiz) repository.
+
+![](documentation/quiz-footer.png)
 
 ## Credits
 
