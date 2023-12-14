@@ -26,6 +26,8 @@ It contains a link to the information page which is easily visible.
 
 ![](documentation/quiz-main.png)
 
+I incorporated an alert message when there is an incorrect answer. It will appear at the top of the screen to ensure that the user knows it was false. 
+
 ![Incorrect Alert](documentation/incorrect-alert.png)
 
 ## Credits
