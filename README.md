@@ -10,7 +10,9 @@
 
 - The questions should be random which can allow a user to return and play the quiz again.
 
-## Information Page
+## Features
+
+### Information Page
 
 The information page is there to show the basics of how the quiz operates.
 
@@ -18,7 +20,7 @@ It also contains a link to the main page which is easily accessible.
 
 ![](documentation/quiz-info.png)
 
-## Main Page
+### Main Page
 
 I have called this the main page because it is going to be where the majority of the time spent on the website will be.
 
@@ -40,6 +42,11 @@ After the quiz is completed it will display how many questions you got correct a
 
 ![Quiz After It's Completed](documentation/quiz-finished.png)
 
+### Header
+
+
+### Footer
+
 ## Credits
 
 - I had help with randomizing the questions inside the data element by watching this [Video](https://www.youtube.com/watch?v=rlYincT2Qzc)
@@ -48,7 +55,7 @@ After the quiz is completed it will display how many questions you got correct a
 
 ## Media
 
-There is no media used in this project.
+Favicon from
 
 ## Design
 
