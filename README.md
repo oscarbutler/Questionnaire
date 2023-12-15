@@ -50,13 +50,23 @@ I incorporated an alert message when there is an incorrect answer. It will appea
 
 In this image, the question shows that when an answer is clicked the rest of the answers are disabled which makes it so it can not pick more than one answer.
 
-It also shows that when a question is answered correctly the scores are updated accurately
-
 ![Questions Disabled & Score Counter](documentation/question-disabled.png)
 
-After the quiz is completed it will display how many questions you got correct and how many incorrect.
+This shows where the scores are kept and if the answers are correct or incorrect accurately.
+
+![](documentation/quiz-score.png)
 
 ![Quiz After It's Completed](documentation/quiz-finished.png)
+
+The quiz buttons are vital for the quiz as it allows the user to choose an answer and find out if it is correct or incorrect.
+
+The next button is disabled to ensure that the user has to answer the question.
+
+![](documentation/quiz-buttons.png)
+
+Once you pick an answer the rest of the answers will be disabled and the next question will be enabled. This prevents people from potentially manipulating the score or picking another answer if they got the question incorrect.
+
+![](documentation/quiz-buttons-disabled.png)
 
 ### Header
 
