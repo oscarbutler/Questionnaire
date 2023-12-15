@@ -112,9 +112,9 @@ There are no unsolved bugs.
 
 ### Mistakes
 
-The git commit ab1c72f the description is "space between the buttons". This should have been "Add space between the buttons" because it is specific and explains if it is adding space or removing it.
+The git commit 'ab1c72f' the description is "space between the buttons". This should have been "Add space between the buttons" because it is specific and explains if it is adding space or removing it.
 
-The git commit 9307357 was described as "Imput information into user section" This should have been "Input information into user section"
+The git commit '9307357' was described as "Imput information into user section" This should have been "Input information into user section"
 
 ## Design
 
